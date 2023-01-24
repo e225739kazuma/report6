@@ -3,11 +3,12 @@
  */
 package jp.ac.uryukyu.ie.e225739;
 
+
 public class Main {
-    static int number = 3;
+    static int number = 3; //３つの数字を当てる
     static int eat = 0;
     static int bite = 0;
-    static int count = 1;
+    static int count = 1; //挑戦した回数をカウント
 
     public static void main(String[] args) {
         printRule();
@@ -25,11 +26,9 @@ public class Main {
             }
                
         }
+
     }
     
-
-    
-
     public static void printRule() {
         //ゲームのタイトルとルール説明
         String title = "   [CodeBreaker]   ";
